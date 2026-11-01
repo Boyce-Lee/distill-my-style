@@ -5,6 +5,7 @@
   "type": "agent-skill",
   "category": "automation",
   "author": "Boyce-Lee",
+  "license": "MIT",
   "created": "2026-11-01",
   "updated": "2026-11-01",
   "dependencies": {"skills": [], "external": ["python>=3.8", "PyYAML>=6.0,<7"]}

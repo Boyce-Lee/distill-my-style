@@ -182,6 +182,7 @@ python scripts/validate_style.py "/absolute/path/sample-style"
 distill-my-style/
 ├── SKILL.md                     # agent 执行指令
 ├── README.md                    # 使用与设计说明
+├── LICENSE                      # MIT 许可证
 ├── CHANGELOG.md                 # 关键设计取舍与演进
 ├── skill.json                   # 管理元数据
 ├── requirements.txt             # 校验器依赖
@@ -193,3 +194,5 @@ distill-my-style/
 ```
 
 本包不需要原作者的聊天记录、私人路径或外部仓库。保存成功、被工具发现和实际遵循是不同的验证结果；格式检查不能证明模型始终遵循偏好，用户确认也不是由脚本自动证明的。
+
+本项目采用 [MIT License](LICENSE)。
